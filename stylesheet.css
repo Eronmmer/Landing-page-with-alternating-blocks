@@ -1,3 +1,13 @@
 
 /*Reset styles to enable cross-browser compatibility*/
 @import 'normalize.css';
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-bg {
+  background-image: url(images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+}
