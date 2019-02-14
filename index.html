@@ -1,19 +1,23 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
+
 <body>
   <header class="hero-bg">
-    <div>
-      <div>
+    <div class="main-header-container">
+      <div class="flex-div header-flex">
         <img src="images/logo.svg" class="logo header-logo" alt="logo">
         <button class="btn btn-header">Try It Free</button>
       </div>
@@ -21,88 +25,99 @@
     </div>
     <section>
       <div class="partition hero-partition">
-        <div class="text">
-          <h1 class="main-heading">Build The Community Your Fans Will Love</h1>
-          <p>Huddle re-imagines the way we view commnities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <div class="text hero-text">
+          <h1 class="main-heading main-text">Build The Community Your Fans Will Love</h1>
+          <p class="main-text large-paragraph auto-paragraph">Huddle re-imagines the way we view commnities. You have a
+            voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+          </p>
           <button class="btn main-btn btn-hero">Get Started For Free</button>
         </div>
-        <div class="image">
-          <img src="images/illustration-mockups.svg" alt="illustration" class="mockups"/>
+        <div class="image hero-image">
+          <img src="images/illustration-mockups.svg" alt="illustration" class="mockups" />
         </div>
       </div>
     </section>
   </header>
-  <main>
+  <main role="main">
     <section>
-      <div class="partition first-main">
-        <div class="image">
-          <img src="images/illustration-grow-together.svg" alt="grow together" class="grow-together"/>
+      <div class="partition first-main bordered">
+        <div class="image bordered-image change-grid-image">
+          <img src="images/illustration-grow-together.svg" alt="grow together" class="grow-together" />
         </div>
-        <div class="text">
-          <h3>Grow Together</h3>
-          <p>Generate meaningful discussion with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        <div class="text bordered-text change-grid-text">
+          <h3 class="main-text">Grow Together</h3>
+          <p class="main-text bordered-paragraph">Generate meaningful discussion with your audience and build a strong,
+            loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
         </div>
       </div>
     </section>
     <section>
-      <div class="partition second-main">
-        <div class="image">
-          <img src="images/illustration-flowing-conversation.svg" alt="flowing conversation" class="flowing-conversation">
+      <div class="partition second-main bordered">
+        <div class="image bordered-image">
+          <img src="images/illustration-flowing-conversation.svg" alt="flowing conversation"
+            class="flowing-conversation">
         </div>
-        <div class="text">
-          <h3>Flowing Conversations</h3>
-          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        <div class="text bordered-text">
+          <h3 class="main-text">Flowing Conversations</h3>
+          <p class="main-text bordered-paragraph">You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural flow.</p>
         </div>
       </div>
     </section>
     <section>
-      <div class="partition third-main">
-        <div class="image">
+      <div class="partition third-main bordered">
+        <div class="image bordered-image change-grid-image">
           <img src="images/illustration-your-users.svg" alt="your users" class="your-users">
         </div>
-        <div class="text">
-          <h3>Your users</h3>
-          <p>It takes no time at all to integrate Huddle with your app's authentic solution. This means, once signed up into your app, your users can start chatting immediately.</p>
+        <div class="text bordered-text change-grid-text">
+          <h3 class="main-text">Your users</h3>
+          <p class="main-text bordered-paragraph">It takes no time at all to integrate Huddle with your app's authentic
+            solution. This means, once signed up into your app, your users can start chatting immediately.</p>
         </div>
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="footer-section">
     <section class="footer footer-first">
-      <div>
-        <img src="images/logo.svg" alt="logo" class="logo footer-logo">
+      <div class="logo-footer-partition">
+        <img src="./images/logo-footer.svg" alt="logo" class="logo footer-logo">
       </div>
-      <div>
+      <div class="location-partition footer-partition">
         <img src="images/icon-location.svg" alt="location" class="location">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eos cumque tenetur commodi doloribus! Doloribus ex inventore rerum nemo, quasi quod aliquam necessitatibus earum soluta! Expedita, et. Perferendis, in a!</p>
+        <p class="footer-paragraph location-paragraph">We're mainly located at the heart of the capital of Nigeria,
+          Abuja. You can find us at block B16/17 Pegi estate, Kuje. We also have branches all over Nigeria.</p>
       </div>
-      <div>
+      <div class="phone-partition footer-partition">
         <img src="images/icon-phone.svg" alt="phone" class="phone">
-        <p>+234-815-330-0617</p>
+        <p class="footer-paragraph phone-paragraph">+234-815-330-0617</p>
       </div>
-      <div>
+      <div class="email-partition footer-partition">
         <img src="images/icon-email.svg" alt="emial" class="email">
-        <p>eronmmer@gmail.com</p>
+        <p class="footer-paragraph email-paragraph">eronmmer@gmail.com</p>
       </div>
     </section>
     <section class="footer footer-second">
       <span>
-        <p>About Us</p>
-        <p>What We Do</p>
-        <p>FAQ</p>
+        <p class="footer-paragraph">About Us</p>
+        <p class="footer-paragraph">What We Do</p>
+        <p class="footer-paragraph">FAQ</p>
       </span>
       <span>
-        <p>Career</p>
-        <p>Blog</p>
-        <p>Contact Us</p>
+        <p class="footer-paragraph">Career</p>
+        <p class="footer-paragraph">Blog</p>
+        <p class="footer-paragraph">Contact Us</p>
       </span>
     </section>
     <section class="footer footer-third">
-      <div>
-
+      <div class="social-media">
+        <ul class="social-icons">
+          <li class="face"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
       </div>
       <div>
-        <small>&copy; Copyright 2019 Huddle. All rights reserved.</small>
+        <p class="copyright"><small>&copy;</small> Copyright 2019 Huddle. All rights reserved.</p>
       </div>
     </section>
   </footer>
