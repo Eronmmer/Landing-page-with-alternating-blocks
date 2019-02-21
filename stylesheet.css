@@ -110,8 +110,32 @@ img {
 }
 
 .btn-footer {
-  width: 14rem;
-  height: 2.6rem;
+  width: 12rem;
+  height: 2.7rem;
+  font-size: 80%;
+}
+
+.for-footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 13rem;
+}
+
+.for-footer-first {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0px 3px 30px 3px rgba(0, 0, 0, .08) !important;
+  margin-top: -20rem;
+  padding-bottom: 0.1rem !important;
+}
+
+.for-footer-first h3 {
+  font-size: 98%;
+}
+
+.padding {
+  padding-top: 13rem;
 }
 
 .bordered {
@@ -269,6 +293,29 @@ img {
     font-size: 0.7rem;
   }
 
+  .btn-footer {
+    width: 20rem;
+    height: 4.4rem;
+    font-size: 1.4rem;
+  }
+
+  .for-footer {
+    margin-top: 16rem;
+  }
+
+  .for-footer-first {
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .for-footer-first h3 {
+    font-size: 2.1rem;
+  }
+
+  .padding {
+    padding-top: 12rem;
+  }
+
   .bordered {
     grid-gap: 4rem;
   }
@@ -318,7 +365,7 @@ img {
   .footer-section {
     display: flex;
     flex-direction: row;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 4.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
