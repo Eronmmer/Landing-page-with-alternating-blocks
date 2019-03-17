@@ -216,12 +216,12 @@ img {
 
 .fab {
   color: #ffffff;
-  /* stroke: #000;
-  stroke-width: 10; */
-  border-width: 1.2px;
+  stroke: #000;
+  stroke-width: 10;
+  /* border-width: 1.2px;
   border-style: solid;
   border-color: #ffffff;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .fa-facebook-f {
@@ -430,9 +430,9 @@ img {
     margin: 0.5rem;
   }
 
-  .fab {
+  /* .fab {
     border-width: 1px;
-  }
+  } */
 
   .social-media {
     align-self: flex-start;
