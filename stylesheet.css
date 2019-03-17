@@ -216,8 +216,8 @@ img {
 
 .fab {
   color: #ffffff;
-  stroke: #000;
-  stroke-width: 10;
+  /* stroke: #000;
+  stroke-width: 10; */
   /* border-width: 1.2px;
   border-style: solid;
   border-color: #ffffff;
